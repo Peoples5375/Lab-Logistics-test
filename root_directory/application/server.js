@@ -54,7 +54,11 @@ const Obserser = require('./services/observer');
 //i just wanted it to hit the catch and say hello...
 
 
-// im finding a lot of sources on how to do file upload but those are using front ends and im not actually grabbing data from a frontend. im trying to use post man to send my files. i could use multer, although thats for handling files on the front end and not really on the backend for postman and server handling. i could also run an express server and run it that way. although i already have a server running on port 3000 so i dont think that would cause this to not run and only hit the catch. maybe its running this post every time i run the server and its not waiting for an upload? that might be it.. maybe everything is in the right spot but its just running every time and there is no file to be posted. that could be why there is a catch err. 
+// im finding a lot of sources on how to do file upload but those are using front ends and im not actually grabbing data from a frontend.
+// im trying to use post man to send my files. i could use multer, although thats for handling files on the front end and not really on the 
+//backend for postman and server handling. i could also run an express server and run it that way. although i already have a server running on
+// port 3000 so i dont think that would cause this to not run and only hit the catch. maybe its running this post every time i run the server and its not waiting for an upload? that might be it.. maybe everything is in the right spot but its just running every time and there is no file to be posted. that 
+//could be why there is a catch err. 
 
 
 
